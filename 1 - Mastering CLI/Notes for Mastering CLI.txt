@@ -1,0 +1,10 @@
+mkdir [directory-name] - Make Directory
+rmdir [directory-name] - Remove Directory
+clear - Clear Terminal
+pwd - Present Working Directory
+Ctrl + C - Terminate last command
+ls - List all Directory
+cd [directory-name] - Change Directory
+cd ..  - Go Back to Previous Directory
+touch [filename.ext] - Create a file
+rm [filename.ext] - Delete a file
