@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Creating Forms</h1>
+    <hr>
+    <h2><em>We need your information for absolutely no reason hehe...</em></h2>
+
+    <div>
+    <label for="fullname-id">Full name:</label>
+    <form action=""> 
+        <input type="text" name="user-fullname" id="fullname-id" placeholder="John Wick" required> <!-- type can be text/age--> <!-- name to identify the type -->
+    </form> </div> <!-- id is a unique --> <!-- placeholders will put a place holder in a form for them to follow -->
+    <br>
+
+    <div>
+    <label for="email-id">Email:</label>
+    <form action="">
+        <input type="email" name="user-email" id="email-id" placeholder="johnwick@email.com" required>
+    </form> 
+    </div>
+    <br>
+
+    <div>
+        <label for="password-id">Password:</label>
+        <form action="">
+            <input type="password" name="user-password" id="password-id" placeholder="********" required>
+    </form> 
+    </div>
+    <br>
+
+    <div>
+        <label for="age-id">Age:</label>
+        <form action="">
+            <input type="number" name="user-age" id="age-id" placeholder="69" min="18" max="90" required >
+    </form> 
+    </div>
+    <br>
+
+    <!-- Other types of inputs: Radio Buttons, Checkbox, Options -->
+
+    <div>
+        <label for="gender-id">Gender:</label>
+        <form action="">
+            <select id="gender-id" name="user-gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="non-conforming">Non-conforming</option>
+            </select>
+    </form> 
+    </div>
+    <br>
+
+    <div>
+        <input type="radio" name="profile" id="private-id" value="private">
+        <label for="private-id">Private</label>
+        <input type="radio" name="profile" id="public-id" value="public">
+        <label for="public-id">Public</label>
+    </div>
+    <br>
+
+    <div>
+        <input type="checkbox" name="Options" id="option1-id" value="option1">
+        <label for="option1-id">Private</label>
+        <input type="checkbox" name="Options" id="option2-id" value="option2">
+        <label for="option2-id">Public</label>
+    </div>
+    <br>
+
+    <button type="submit">Submit</button>
+
+</body>
+</html>
