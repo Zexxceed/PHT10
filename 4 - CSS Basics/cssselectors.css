@@ -70,3 +70,14 @@ a[href="https://www.example.com"]:visited {
     content:"This is a paragraph before.";
     color:gold;
 }
+
+
+/* CSS Specificity or Priority in Precedence of style */
+/* Inline Styles > ID Selectors > Class/Attribute > Element Selector */
+#id {
+    color:red;
+}
+
+.class {
+    color:blue
+}
