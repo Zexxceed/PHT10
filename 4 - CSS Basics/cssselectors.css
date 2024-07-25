@@ -1,0 +1,72 @@
+/* Element Selector */
+span {
+    color:rebeccapurple;
+}
+
+/* Class Selector */
+.class-name {
+    color:aquamarine;
+}
+
+/* ID Selector */
+#id-name {
+    color:chocolate;
+}
+
+/* Universal Selector */
+* {
+    font-size: 25px;
+}
+
+/* Attribute Selector */
+[href] {
+    color:olive;
+    text-decoration: none;
+}
+
+/* This targets a specfic Attribute: href, etc. */
+a[href="www.sample.com"] {
+    color:coral;
+}
+
+a[id="tag"]{
+    color:bisque;
+}
+
+/* Grouping Selector */
+h1,.parag,h2 {
+    color:deeppink;
+}
+
+/* Descendant Selector */
+.ancestor h3 {
+    color:yellowgreen;
+}
+.ancestor p {
+    color:turquoise;
+}
+
+/* Pseudo classes */
+button:hover {
+    background-color:coral;
+    color:white;
+    cursor:pointer;
+}
+
+a[href="https://www.example.com"]:visited {
+    color:cornflowerblue;
+}
+
+/* Pseudo elements */
+#pseudo-element::after {
+    content:"This is a paragraph after.";
+    color:pink;
+}
+#pseudo-element::before {
+    content:"This is a paragraph before.";
+    color:red;
+}
+#pseudo-element::first-letter {
+    content:"This is a paragraph before.";
+    color:gold;
+}
