@@ -1,0 +1,18 @@
+.color-example {
+    background-color: crimson;
+}
+
+.background-example{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCgyy-siuVvkT3ML9vZgpB3nc4QYSDr-290A&s");
+    height: 250px;
+    width: 200px;
+    background-position: center;
+}
+
+.background-position-example {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCgyy-siuVvkT3ML9vZgpB3nc4QYSDr-290A&s");
+    height: 250px;
+    width: 200px;
+    background-position: left;
+    opacity:0.5 ;
+}

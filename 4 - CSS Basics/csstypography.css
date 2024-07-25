@@ -1,0 +1,53 @@
+/* Naming Conventions */
+/* Khebab case: font-family-size */
+/* Camel case: fontFamilySize */
+
+/* Imports are usually put at the top to let other devs to know you imported something */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-family-size {
+    font-family:"Montserrat", sans-serif;
+    font-size:50px;
+}   /* Fall back font - backup fonts in-case preliminary fonts do not work for others */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.line-height{
+    line-height: 11;
+}
+
+.letter-spacing{
+    letter-spacing: 25px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    text-indent: 20px;
+}
+
+.text-shadow{
+    text-shadow: 12px 12px 3px greenyellow;
+} 
+/* text shadow: horizontal, vertical, strength*/
+
+.text-overflow{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    width:300px;
+}
