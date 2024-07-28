@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: crimson;
     color: black;
 }
 
@@ -48,6 +48,10 @@ section {
     margin-bottom: 100px;
 }
 
+a[src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"]{
+    align-items: center;
+    margin-left: 500px;
+}
 
 footer {
     background-color: #333;

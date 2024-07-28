@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: darkgoldenrod;
     color: black;
 }
 
@@ -44,7 +44,7 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 95px;
 }
 
 #contact{
@@ -72,4 +72,14 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+
+
+a[href="mailto:aries.seangoy@gmail.com"] {
+    color: beige;
+}
+
+a[href="mailto:aries.seangoy@gmail.com"]:visited {
+    color: crimson;
 }

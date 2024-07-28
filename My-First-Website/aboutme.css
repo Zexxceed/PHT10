@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: coral;
     color: black;
 }
 
@@ -45,7 +45,7 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .project {
@@ -65,7 +65,22 @@ footer {
     bottom: 0;
 }
 
-#context {
+.intro1 {
+    -webkit-columns: 500px 2;
+    -moz-columns: 500px 2;
+    columns: 500px 2;
+    column-gap: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    max-width: 1000px
+    margin-inline;
+}
+
+.intro2 {
+    -webkit-columns: 500px 2;
+    -moz-columns: 500px 2;
+    columns: 500px 2;
+    column-gap: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
@@ -81,13 +96,4 @@ footer {
     line-height: 0.05;
     font-size: 15px;
     text-align: inherit;
-}
-
-
-a[href="mailto:aries.seangoy@gmail.com"] {
-    color: beige;
-}
-
-a[href="mailto:aries.seangoy@gmail.com"]:visited {
-    color: crimson;
 }
