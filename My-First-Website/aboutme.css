@@ -65,6 +65,20 @@ footer {
     bottom: 0;
 }
 
+
+#akotolegit {
+    float: inline-end 10;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#akotolegit2 {
+    float: inline-end 7;
+    line-height: 0.05;
+    font-size: 15px;
+    text-align: inherit;
+}
+
 .intro1 {
     -webkit-columns: 500px 2;
     -moz-columns: 500px 2;
@@ -85,15 +99,3 @@ footer {
     margin-bottom: 10px;
 }
 
-#akotolegit {
-    float: inline-end 7;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#akotolegit2 {
-    float: inline-end 7;
-    line-height: 0.05;
-    font-size: 15px;
-    text-align: inherit;
-}
