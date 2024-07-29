@@ -1,0 +1,58 @@
+/* long method/normal method */
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+/* shorthand method */
+
+.box2{
+    padding: 10px 20px 30px 40px;
+    /* one value = all sides */
+    /* two values = top and bottom or left and right */
+    /* three values = top, right&left, and bottom */
+    /* top, right, bottom, left */
+}
+
+/* normal method */
+.box3 {
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
+/* margin shorthand method */
+
+.box4 {
+    margin:10px 20px 30px 40px;
+    /* one value = all sides */
+    /* two values = top and bottom or left and right */
+    /* three values = top, right&left, and bottom */
+    /* top, right, bottom, left */
+}
+
+/* borders */
+/*.mix-borders{
+    border-style: solid;
+} */
+
+/* short hand border */
+.mix-borders{
+    border:solid 5px green;
+    /* 1st value = border style */
+    /* 2nd value = border weight */
+    /* 3rd value = color */
+    /* no particular order needed for border */
+}
+
+.circle-container{
+    border:double 3px green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-top: dotted 5px;
+    border-bottom: dashed 2px blue;
+}
