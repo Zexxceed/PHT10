@@ -1,0 +1,51 @@
+.flexContainer{
+    display:flex; /* row is the default value */
+    flex-direction:row;
+
+    justify-content:flex-start;
+
+    /* flex-start is the default value of justify-content */
+
+    /* justify-content:flex-end;
+    justify-content:center;
+    justify-content:space-between;
+    justify-content:space-evenly; */
+
+    /* align-items: stretch;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center; */
+
+    /* Align-items are the vertical adjustments or "y" values */
+
+    /* wrap on flex-wrap follows viewports */
+    /* nowrap is the default for flex-wrap */
+
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
+
+}
+
+/* Adjusting one item only */
+
+/* .flexItem2 {
+    align-self: flex-start;
+    flex-grow: 1;
+} */
+
+/* Flex Grow = willingness to grow */
+
+/* .flexItem3{
+    flex-grow: 3;
+}
+
+.flexItem1{
+    flex-grow: 2;
+} */
+
+/* Flex Shrink = willingness to shrink */
+
+.flexItem3{
+    flex-shrink: 3;
+}
