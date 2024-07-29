@@ -1,0 +1,86 @@
+/* Grid */
+/* .gridContainer{ */
+    /* display:grid; */
+    /* number of columns = the values added */
+    /* grid-template-columns: 200px 200px 200px; */
+    /* template-rows = height of the rows */
+    /* grid-template-rows: 200px 200px 200px; */
+/* } */
+
+/* Using auto */
+/* Adjust based on screen-size 
+.gridContainer{
+    display:grid;
+    grid-template-columns: auto;
+} */
+
+/* Using % value */
+
+/* .gridContainer{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+} */
+
+/* Using fr (fractions) */
+/* .gridContainer{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* the same as */
+    /* grid-template-columns: repeat(3,1fr); */
+/* } */
+
+/* REMEMBER D.R.Y - Do not repeat yourself */
+
+/* Column Gaps */
+
+/* .gridContainer{
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+} */
+
+/* Grid Area */
+/* grid-area: [row-start]/[column-start][row-end][column-end] */
+
+.gridItem1{
+    display: grid;
+    grid-area: 2 / 2 / 4 / 3;
+}
+
+/* Media Queries */
+
+/*
+      Mobile Devices: Less than 481px
+      iPads, Tablets: 481px - 768px
+      Small Screens, Laptops: 769px - 1024px
+      Desktops, Large Screens: 1025px - 1200px
+      Extra Large Screens, TV: 1201px and greater
+  */
+
+/* Media Queries for Large Screens */
+
+@media screen and (min-width: 1025px){
+
+.gridContainer{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+    
+}
+
+/* Media Query for Medium Screens */
+
+@media screen and (min-width: 1024px){
+    .gridContainer{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Small screens */
+
+@media screen and (max-width:480px){
+    .gridContainer{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
