@@ -42,7 +42,7 @@ nav a {
 #about {
     background-color: white;
     padding: 15px 20px 15px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
@@ -68,6 +68,11 @@ iframe:focus{
     align-items: center;
     margin-left: 500px;
     position:center;
+}
+
+iframe{
+    display:grid;
+    grid-area: 2/4/2/4;
 }
 
 footer {
