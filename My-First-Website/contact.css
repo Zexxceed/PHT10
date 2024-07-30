@@ -16,11 +16,16 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    position:sticky;
+    top:0;
 }
 
 nav {
     background-color: #333;
     overflow: hidden;
+    position:sticky;
+    padding-top: 10px;
+    top: 122px;
 }
 
 nav a {
@@ -35,6 +40,7 @@ nav a {
 nav a:hover {
     background-color: darkgoldenrod;
     color: black;
+    transform:translateY(-5px);
 }
 
 main {
@@ -73,8 +79,6 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-
 
 a[href="mailto:aries.seangoy@gmail.com"] {
     color: beige;

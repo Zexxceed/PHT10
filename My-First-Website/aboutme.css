@@ -16,11 +16,17 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    position:sticky;
+    top:0;
 }
 
 nav {
     background-color: #333;
     overflow: hidden;
+    display:flex;
+    position:sticky;
+    padding-top: 10px;
+    top: 122px;
 }
 
 nav a {
@@ -30,11 +36,14 @@ nav a {
     text-align: justify;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 nav a:hover {
     background-color: coral;
     color: black;
+    transform:translateY(-5px);
+    box-shadow: 0 8px 16px rgba(199, 163, 163, 0.1);
 }
 
 main {
@@ -48,12 +57,6 @@ section {
     margin-bottom: 100px;
 }
 
-.project {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 footer {
     background-color: #333;

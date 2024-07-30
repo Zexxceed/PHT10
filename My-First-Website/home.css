@@ -17,25 +17,39 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    position:sticky;
+    top:0;
 }
 
 nav {
     background-color: #333;
     overflow: hidden;
+    position:sticky;
+    padding-top: 10px;
+    top: 122px;
 }
 
 nav a {
     float: left;
     display: block;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     
 }
 
+#about {
+    background-color: white;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
 nav a:hover {
     background-color: crimson;
+    transform:translateY(-5px);
     color: black;
 }
 
@@ -50,9 +64,10 @@ section {
     margin-bottom: 100px;
 }
 
-a[src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"]{
+iframe:focus{
     align-items: center;
     margin-left: 500px;
+    position:center;
 }
 
 footer {
